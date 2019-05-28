@@ -65,3 +65,27 @@ main{
   font-size: 50px;
   margin-top: 12vw;
 }
+.grid-image{
+  width: inherit;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 60vw;
+}
+.grid-item{
+  display: block;
+  width: 20vw;
+  margin-top: 5vh;
+  margin-left: 10vw;
+  
+}
+
+.big-image {
+  position: absolute;
+  width: 80vw;
+  height: 70vh;
+  top: 10vh;
+  left:15vw;
+  right: 15vw;
+  bottom: 10vh;
+  transition: 0.5s all;
+}
